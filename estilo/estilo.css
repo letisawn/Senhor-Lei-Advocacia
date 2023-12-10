@@ -1,0 +1,154 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka';
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cabecalho {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-largura-limitada {
+        width: 800px;
+        margin: 0 auto;
+}
+
+.cabecalho p {
+    margin-right: 350px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cabecalho p, a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cabecalho a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#link-esquerda {
+    border-left: 1px solid #d5d5d5;
+}
+
+#link-meio {
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}
+
+#link-direita {
+    border-right: 1px solid #d5d5d5;
+}
+
+.cabecalho a:hover {
+    color: #6e6e6e;
+}
+
+.img-fundo1 {
+    background-image: url(../img/capa.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.secao-background-conteudo h1, h2 {
+    text-align: right;
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+
+.secao-background-conteudo h1 {
+    font-size: 30px;
+}
+
+.sobre {
+    margin-left: 300px;
+}
+
+.sobre h3 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    width: 800px;
+    margin-bottom: 15px;
+}
+
+.sobre p span {
+    border-left: 1px solid #000000;
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.img-fundo2 {
+    margin-top: 70px;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 150px;
+}
+
+.img-fundo2 div h3 {
+    background-color: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 580px;
+    position: relative;
+    top: 50px;
+}
+
+.areas-atuacao {
+    margin-left: 300px;
+}
+
+.areas-atuacao h3 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.areas-atuacao ul li {
+    margin-left: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.fale-conosco {
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.fale-conosco h3 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.fale-conosco ul li {
+    margin-left: 50px;
+    position: relative;
+    top: 15px;
+}
